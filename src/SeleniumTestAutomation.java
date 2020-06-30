@@ -41,9 +41,9 @@ public class SeleniumTestAutomation {
 		//Stop the execution until the page loads
 		Thread.sleep(2000);
 		//Go to the 'Enter your password' box
-		WebElement password = browser.findElement(By.name("password"));  //Enter the correct password
+		WebElement password = browser.findElement(By.name("password"));  
 		//Type password
-		password.sendKeys("xxxxxxxx");
+		password.sendKeys("xxxxxxxx"); //Enter the correct password
 		//Hit Next
 		browser.findElement(By.id("passwordNext")).click();
 		//Stop the execution until the page loads
